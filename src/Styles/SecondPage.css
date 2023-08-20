@@ -1,0 +1,76 @@
+/* SecondPage.css */
+.second-page-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .data-grid-container {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Apply colorful styles to DataGrid */
+  .MuiDataGrid-root {
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 8px;
+    background-color: #f0f5f9; /* Table background color */
+  }
+  
+  .MuiTableContainer-root {
+    border-radius: 8px;
+  }
+  
+  .MuiDataGrid-columnHeader {
+ 
+    background-color: #3f34db; /* Header background color */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .MuiDataGrid-row {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .MuiDataGrid-row.Mui-selected {
+    background-color: #f3e7e9; /* Selected row background color */
+  }
+  
+  .MuiDataGrid-row.Mui-hover {
+    background-color: #e2ecf4; /* Hovered row background color */
+  }
+  
+  .welcome{
+
+     color: rgb(12, 14, 14);
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifx;
+     background-color: aqua;
+  }
+  /* SecondPage.css */
+/* ... Existing styles ... */
+
+.welcome-header {
+    font-size: 24px;
+    color: #ece9e9;
+    margin-bottom: 20px;
+    background-color: #3f34db;
+    
+  }
+  
+  .logout-button {
+    background-color: #3f34db;
+    color: rgb(251, 248, 248);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
